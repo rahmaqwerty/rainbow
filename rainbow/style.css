@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Oswald&display=swap');
+@keyframes rainbow {
+    0% {background-color:red ;}
+    20%{background-color:orange;}
+    30%{background-color:yellow ;}
+    50%{background-color: green;}
+    70%{background-color: blue;}
+    90%{background-color:indigo;}
+    100%{background-color:violet;}
+
+}
+
+body{
+
+    background-color: white;
+    animation-name: rainbow;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 3s;
+    animation-fill-mode:backwards;
+    animation-play-state:running;
+   
+
+    
+}
+nav{
+    color: black;
+    font-size: large;
+}
+
+h1{
+    color: rgb(131, 106, 60);
+    text-align: center;
+    font-size: 50px;
+    font-family: Oswald;
+}
+
+h2{
+    color: #6e152a;
+    text-align: center;
+    font-size: 30px;
+    font-family: Oswald;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 600px;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+img{
+  align-items: center;
+}
